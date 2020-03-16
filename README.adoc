@@ -1,0 +1,10 @@
+= shut_down
+
+An alternative to `shutdown`
+
+== Install
+
+[source,shell]
+----
+fisher add github.com/mimikun/shut_down
+----
