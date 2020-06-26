@@ -8,7 +8,7 @@ function shut_down -d 'An alternative to `shutdown`'
     set read_prompt "Shutdown?"
 
     if read_confirm
-        sync; sync; sync;
+        supersync
         sudo shutdown -h now
     end
 end
