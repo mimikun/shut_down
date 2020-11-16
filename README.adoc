@@ -6,5 +6,10 @@ An alternative to `shutdown`
 
 [source,shell]
 ----
-fisher add github.com/mimikun/shut_down
+fisher install mimikun/shut_down
 ----
+
+== Require
+
+* https://github.com/mimikun/supersync[supersync]
+* https://github.com/mimikun/read_confirm[read_confirm]
